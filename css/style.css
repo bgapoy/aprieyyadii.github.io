@@ -10,11 +10,25 @@ body{
 
 }
 
+.jumbotron {
+	height: 600px;
+	background-image: url('../img/header.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	background-position: 0 30px;
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,1);
+}
 
 
-.jumbotron img {
+.img-circle {
 	width: 200px;
-	border: 5px solid #666;
+	border: 5px solid white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,1);
 
 
 }
