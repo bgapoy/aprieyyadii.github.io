@@ -23,7 +23,5 @@ $(window).scroll(function(){
 	$('.jumbotron h1').css({
 		'transform' : 'translate(0px , '+wscroll/2.2+'%)'
 	});
-	$('.jumbotron p').css({
-	'transform' : 'translate(0px , '+wscroll/1.5+'%)'
-	});
+	
 });
